@@ -1,0 +1,11 @@
+{
+    "cmd": ["/usr/bin/php", "$file"],
+    "selector": "source.php",
+    "target": "exec",
+    "variants": [  
+        {
+            "cmd": ["/usr/bin/phpunit", "$file"],
+            "name": "Run"
+        }
+    ]  
+}

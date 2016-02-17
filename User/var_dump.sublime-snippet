@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+echo '<pre>';
+var_dump(${1:arg});
+echo '</pre>';
+]]></content>
+    <tabTrigger>vd</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

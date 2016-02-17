@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>tpl</string>
+	</array>
+	<key>name</key>
+	<string>Blitz Templates</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.blitz-templates</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.blitz-templates</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>tags</string>
+			<key>match</key>
+			<string>\{\{\s*(BEGIN|END( IF| UNLESS)?|IF|UNLESS)?\s*((\$[^\}]+)|([^\$][^\}]+))?\s*\}\}</string>
+			<key>name</key>
+			<string>constant.numeric.blitz-templates</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.blitz-templates</string>
+	<key>uuid</key>
+	<string>69b45c45-c527-49c6-b0e0-7bc63cf55823</string>
+</dict>
+</plist>

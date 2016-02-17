@@ -1,0 +1,17 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Blitz Templates
+scopeName: source.blitz-templates
+fileTypes: [tpl]
+uuid: 69b45c45-c527-49c6-b0e0-7bc63cf55823
+
+patterns:
+- name: constant.numeric.blitz-templates
+  # match: \{\{\s*(BEGIN|END( IF| UNLESS)?|IF|UNLESS)?\s*(.*?)?\s*\}\}
+  match: \{\{\s*(BEGIN|END( IF| UNLESS)?|IF|UNLESS)?\s*((\$[^\}]+)|([^\$][^\}]+))?\s*\}\}
+  comment: tags
+  captures:
+    # '1': {name: entity.name.tag.blitz-templates}
+    '4': {name: variable.language.blitz-templates}
+    '5': {name: variable.language.blitz-templates}
+...
